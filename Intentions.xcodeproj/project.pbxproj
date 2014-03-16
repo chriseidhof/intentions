@@ -21,6 +21,13 @@
 		83C0D92318D5EA2E0052E3B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C0D90518D5EA2E0052E3B3 /* UIKit.framework */; };
 		83C0D92B18D5EA2E0052E3B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83C0D92918D5EA2E0052E3B3 /* InfoPlist.strings */; };
 		83C0D92D18D5EA2E0052E3B3 /* IntentionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D92C18D5EA2E0052E3B3 /* IntentionsTests.m */; };
+		83C0D93B18D5EB2C0052E3B3 /* NSString+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D93A18D5EB2C0052E3B3 /* NSString+Reverse.m */; };
+		83C0D93E18D5ECBA0052E3B3 /* UppercaseIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D93D18D5ECBA0052E3B3 /* UppercaseIntention.m */; };
+		83C0D94118D5EE590052E3B3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D94018D5EE590052E3B3 /* Person.m */; };
+		83C0D94418D5EE830052E3B3 /* DismissOnEnterIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D94318D5EE830052E3B3 /* DismissOnEnterIntention.m */; };
+		83C0D94718D5F39C0052E3B3 /* ModelContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D94618D5F39C0052E3B3 /* ModelContainer.m */; };
+		83C0D94A18D5F44A0052E3B3 /* ObserveIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D94918D5F44A0052E3B3 /* ObserveIntention.m */; };
+		83C0D94D18D5F6F40052E3B3 /* ReverseIntention.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D94C18D5F6F40052E3B3 /* ReverseIntention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,20 @@
 		83C0D92818D5EA2E0052E3B3 /* IntentionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IntentionsTests-Info.plist"; sourceTree = "<group>"; };
 		83C0D92A18D5EA2E0052E3B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83C0D92C18D5EA2E0052E3B3 /* IntentionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentionsTests.m; sourceTree = "<group>"; };
+		83C0D93918D5EB2C0052E3B3 /* NSString+Reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Reverse.h"; sourceTree = "<group>"; };
+		83C0D93A18D5EB2C0052E3B3 /* NSString+Reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Reverse.m"; sourceTree = "<group>"; };
+		83C0D93C18D5ECBA0052E3B3 /* UppercaseIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UppercaseIntention.h; sourceTree = "<group>"; };
+		83C0D93D18D5ECBA0052E3B3 /* UppercaseIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UppercaseIntention.m; sourceTree = "<group>"; };
+		83C0D93F18D5EE590052E3B3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		83C0D94018D5EE590052E3B3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		83C0D94218D5EE830052E3B3 /* DismissOnEnterIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissOnEnterIntention.h; sourceTree = "<group>"; };
+		83C0D94318D5EE830052E3B3 /* DismissOnEnterIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissOnEnterIntention.m; sourceTree = "<group>"; };
+		83C0D94518D5F39C0052E3B3 /* ModelContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelContainer.h; sourceTree = "<group>"; };
+		83C0D94618D5F39C0052E3B3 /* ModelContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelContainer.m; sourceTree = "<group>"; };
+		83C0D94818D5F44A0052E3B3 /* ObserveIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserveIntention.h; sourceTree = "<group>"; };
+		83C0D94918D5F44A0052E3B3 /* ObserveIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserveIntention.m; sourceTree = "<group>"; };
+		83C0D94B18D5F6F30052E3B3 /* ReverseIntention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseIntention.h; sourceTree = "<group>"; };
+		83C0D94C18D5F6F40052E3B3 /* ReverseIntention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseIntention.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +140,13 @@
 				83C0D91718D5EA2E0052E3B3 /* ViewController.m */,
 				83C0D91918D5EA2E0052E3B3 /* Images.xcassets */,
 				83C0D90818D5EA2E0052E3B3 /* Supporting Files */,
+				83C0D93918D5EB2C0052E3B3 /* NSString+Reverse.h */,
+				83C0D93A18D5EB2C0052E3B3 /* NSString+Reverse.m */,
+				83EB7BF318D602BC006A843C /* Intention */,
+				83C0D93F18D5EE590052E3B3 /* Person.h */,
+				83C0D94018D5EE590052E3B3 /* Person.m */,
+				83C0D94518D5F39C0052E3B3 /* ModelContainer.h */,
+				83C0D94618D5F39C0052E3B3 /* ModelContainer.m */,
 			);
 			path = Intentions;
 			sourceTree = "<group>";
@@ -150,6 +178,21 @@
 				83C0D92918D5EA2E0052E3B3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83EB7BF318D602BC006A843C /* Intention */ = {
+			isa = PBXGroup;
+			children = (
+				83C0D93C18D5ECBA0052E3B3 /* UppercaseIntention.h */,
+				83C0D93D18D5ECBA0052E3B3 /* UppercaseIntention.m */,
+				83C0D94B18D5F6F30052E3B3 /* ReverseIntention.h */,
+				83C0D94C18D5F6F40052E3B3 /* ReverseIntention.m */,
+				83C0D94218D5EE830052E3B3 /* DismissOnEnterIntention.h */,
+				83C0D94318D5EE830052E3B3 /* DismissOnEnterIntention.m */,
+				83C0D94818D5F44A0052E3B3 /* ObserveIntention.h */,
+				83C0D94918D5F44A0052E3B3 /* ObserveIntention.m */,
+			);
+			name = Intention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +293,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C0D91818D5EA2E0052E3B3 /* ViewController.m in Sources */,
+				83C0D93B18D5EB2C0052E3B3 /* NSString+Reverse.m in Sources */,
+				83C0D94A18D5F44A0052E3B3 /* ObserveIntention.m in Sources */,
+				83C0D94D18D5F6F40052E3B3 /* ReverseIntention.m in Sources */,
+				83C0D94118D5EE590052E3B3 /* Person.m in Sources */,
+				83C0D94418D5EE830052E3B3 /* DismissOnEnterIntention.m in Sources */,
+				83C0D94718D5F39C0052E3B3 /* ModelContainer.m in Sources */,
 				83C0D91218D5EA2E0052E3B3 /* AppDelegate.m in Sources */,
+				83C0D93E18D5ECBA0052E3B3 /* UppercaseIntention.m in Sources */,
 				83C0D90E18D5EA2E0052E3B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +506,7 @@
 				83C0D93218D5EA2E0052E3B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83C0D93318D5EA2E0052E3B3 /* Build configuration list for PBXNativeTarget "IntentionsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +515,7 @@
 				83C0D93518D5EA2E0052E3B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

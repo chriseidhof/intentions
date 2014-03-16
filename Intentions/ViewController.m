@@ -1,14 +1,9 @@
-//
-//  ViewController.m
-//  Intentions
-//
-//  Created by Chris Eidhof on 16/03/14.
-//  Copyright (c) 2014 Chris Eidhof. All rights reserved.
-//
-
 #import "ViewController.h"
+#import "ModelContainer.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet ModelContainer* modelContainer;
 
 @end
 
@@ -17,13 +12,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    Person *person = [Person new];
+    person.name = @"Chris";
+    self.modelContainer.model = person;
 }
 
 @end
