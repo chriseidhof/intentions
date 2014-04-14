@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Person.h"
 
 @interface ModelContainer : NSObject
 

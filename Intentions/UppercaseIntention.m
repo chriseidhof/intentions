@@ -22,7 +22,7 @@
 
 - (IBAction)capitalize:(id)sender {
     [self.modelContainer.model setValue:self.textField.text.uppercaseString
-                                 forKey:self.modelKeyPath];
+                             forKeyPath:self.modelKeyPath];
 }
 
 @end
